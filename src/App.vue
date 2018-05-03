@@ -20,9 +20,9 @@
     </v-container>
     <v-footer dark color='primary' class='white--text' :fixed='fixed' app height='auto'>
       <v-layout class='column align-center'>
-        <p class='subheading'>Rogue Designs</p>
-        <p class='subheading'>Email <a href='mailto://admin@roguedesigns.us' class='white--text'>admin@roguedesigns.us</a></p>
-        <p class='subheading'>&copy; Copyright 2017 Rogue Designs Version {{ version }}</p>
+        <span class='RogueFooter'>Rogue Designs</span>
+        <span class='RogueFooter'>Email <a href='mailto://admin@roguedesigns.us' class='white--text'>admin@roguedesigns.us</a></span>
+        <span class='RogueFooter'>&copy; Copyright 2017 Rogue Designs Version {{ version }}</span>
       </v-layout>
     </v-footer>
   </v-app>
@@ -39,7 +39,7 @@ export default {
       right: false,
       rightDrawer: false,
       title: 'Rogue Designs',
-      version: '151',
+      version: '152',
       items: [
         { icon: 'home', title: 'Home', target: '/' },
         { icon: 'contact_phone', title: 'Contact', target: '/contact' },
@@ -55,6 +55,8 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('./assets/css/vuetify.css');
+@import url('./assets/css/custom.css');
 </style>
 
 
