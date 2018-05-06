@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class='RogueComponent'>
+  <v-container fluid class='RogueComponent RoguePager'>
     <v-slide-y-transition mode='out-in'>
       <v-layout column align-center>
         <v-avatar class='hidden-sm-and-down' size='172px' >
@@ -34,7 +34,7 @@
               <li><p>Plex and Open Media Server can use DLNA to stream your media.</p></li>
             </ul>
           <v-card-actions class='RogueCardActions'>
-            <v-btn dark round color='primary' @click='$router.push("/contact")'>Contact</v-btn>
+            <v-btn dark round small color='primary' @click='$router.push("/contact")'>Contact</v-btn>
           </v-card-actions>
           <v-divider></v-divider>
           <v-card-title class='title'>Web Server</v-card-title>
@@ -46,7 +46,7 @@
             </ul>
 
           <v-card-actions class='RogueCardActions'>
-            <v-btn dark round color='primary' @click='$router.push("/contact")'>Contact</v-btn>
+            <v-btn dark round small color='primary' @click='$router.push("/contact")'>Contact</v-btn>
           </v-card-actions>
           <v-divider></v-divider>
           <v-card-title class="title">Proxy Server</v-card-title>
@@ -56,7 +56,7 @@
             </ul>
 
           <v-card-actions class='RogueCardActions'>
-            <v-btn dark round color='primary' @click='$router.push("/contact")'>Contact</v-btn>
+            <v-btn dark round small color='primary' @click='$router.push("/contact")'>Contact</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>

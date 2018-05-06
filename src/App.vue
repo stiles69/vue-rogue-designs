@@ -39,7 +39,7 @@ export default {
       right: false,
       rightDrawer: false,
       title: 'Rogue Designs',
-      version: '152',
+      version: '162',
       items: [
         { icon: 'home', title: 'Home', target: '/' },
         { icon: 'contact_phone', title: 'Contact', target: '/contact' },

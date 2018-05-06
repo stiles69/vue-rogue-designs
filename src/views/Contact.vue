@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class='RogueComponent'>
+  <v-container fluid class='RogueComponent RoguePager'>
     <v-slide-y-transition mode='out-in'>
       <v-layout column align-center>
 	      <v-avatar class='hidden-sm-and-down' size='172px' >

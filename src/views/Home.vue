@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class='RogueComponent'>
+  <v-container fluid class='RogueComponent RoguePager'>
     <v-slide-y-transition mode='out-in'>
       <v-layout column align-center>
         <v-avatar class='hidden-sm-and-down' size='172px' >
@@ -34,7 +34,7 @@
             <v-card-title class='title'>Website Design</v-card-title>
             <v-card-text class='RogueCardText subheading '>Affordable website design. As low as $12 a year for hosting services, with your own domain.</v-card-text>
             <v-card-actions class='RogueCardActions'>
-              <v-btn round dark class='RogueBtn' color='primary' @click='$router.push("/website")'>More</v-btn>
+              <v-btn round dark small class='RogueBtn' color='primary' @click='$router.push("/website")'>More</v-btn>
             </v-card-actions>
             <v-divider></v-divider>
           </v-card>

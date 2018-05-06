@@ -1,5 +1,5 @@
 .RogueLayout {
-  max-width: 412px;
+  max-width: 800px;
   margin: auto;
 }
 .RogueCardTitle {
@@ -14,14 +14,14 @@
   font-size: 14px;
 }
 .RogueParagraph {
-  max-width: 30%;
+  max-width: 600px;
 }
 .RogueUL {
   padding-left: 40px;
   padding-right: 40px;
 }
 .RogueComponent {
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 .RogueHeading {
