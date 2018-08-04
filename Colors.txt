@@ -1,0 +1,27 @@
+Primary
+
+#870d4c
+
+P — Light
+
+#bb4678
+
+P — Dark
+
+#550024
+
+Secondary
+
+#e57373
+
+S — Light
+
+#ffa4a2
+
+S — Dark
+
+#af4448
+
+
+
+

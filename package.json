@@ -1,6 +1,6 @@
 {
   "name": "vue-rogue-designs",
-  "version": "163.0.0",
+  "version": "166.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
