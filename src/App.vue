@@ -39,10 +39,10 @@ export default {
       right: false,
       rightDrawer: false,
       title: 'Rogue Designs',
-      version: '166',
+      version: '167',
       items: [
         { icon: 'home', title: 'Home', target: '/' },
-        { icon: 'contact_phone', title: 'Contact', target: '/contact' },
+        { icon: 'phone', title: 'Contact', target: '/contact' },
         { icon: 'access_time', title: 'Technical Support', target: '/technicalsupport' },
         { icon: 'attach_money', title: 'Website Design', target: '/website' },
         { icon: 'money_off', title: 'RaspberryPi Images', target: '/raspberrypi' }
@@ -58,5 +58,3 @@ export default {
 @import url('./assets/css/vuetify.css');
 @import url('./assets/css/custom.css');
 </style>
-
-

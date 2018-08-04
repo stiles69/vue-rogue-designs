@@ -9,7 +9,7 @@
           <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
         </v-avatar>
         <p class='headline'>Rogue Designs</p>
-        <p class='title'>Affordable Computer Services</p>        
+        <p class='title'>Affordable Computer Services</p>
       </v-layout>
     </v-slide-y-transition>
     <v-layout column class='RogueLayout'>
