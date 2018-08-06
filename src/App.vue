@@ -2,11 +2,16 @@
   <v-app>
     <v-navigation-drawer app temporary v-model='drawer'>
       <v-list>
-        <v-list-tile value='true' v-for='(item, i) in items' :key='i' >
+	  <v-list-tile>
             <v-list-tile-action>
+	      <font-awesome-icon icon="coffee" v-on:click="homer"></font-awesome-icon>
+	    </v-list-tile-action>
+      	  </v-list-tile>
+        <v-list-tile value='true' v-for='(item, i) in items' :key='i' >
+	    <v-list-tile-action>
               <router-link :to='item.target'><v-icon v-html='item.icon'></v-icon></router-link>
             </v-list-tile-action>
-          <router-link :to='item.target'><v-list-tile-title v-text='item.title' class='title'></v-list-tile-title></router-link>
+		<router-link :to='item.target'><v-list-tile-title v-text='item.title' class='title'></v-list-tile-title></router-link>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
@@ -41,15 +46,18 @@ export default {
       title: 'Rogue Designs',
       version: 'F 1',
       items: [
-        { icon: 'home', title: 'Home', target: '/' },
+//        { icon: 'home', title: 'Home', target: '/' },
         { icon: 'phone', title: 'Contact', target: '/contact' },
         { icon: 'access_time', title: 'Technical Support', target: '/technicalsupport' },
         { icon: 'attach_money', title: 'Website Design', target: '/website' },
         { icon: 'money_off', title: 'RaspberryPi Images', target: '/raspberrypi' }
       ]
     }
-  },
   name: 'App'
+	},
+  methods: {
+	homer: function () { this.$router.push({ path: '/'}) }
+  }
 }
 </script>
 

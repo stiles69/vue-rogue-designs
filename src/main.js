@@ -1,11 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import router from './router'
 import './registerServiceWorker'
-import fa from 'fontawesome-vue'
 import { Vuetify, VApp, VNavigationDrawer, VFooter, VList, VBtn, VIcon, VGrid, VToolbar, VCard, VDivider, VAvatar, transitions } from 'vuetify'
 import '../node_modules/vuetify/src/stylus/app.styl'
 import './assets/stylus/main.styl'
+
+library.add(faCoffee)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(Vuetify, {
   components: {
